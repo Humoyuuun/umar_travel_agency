@@ -1,0 +1,169 @@
+.Signup{
+    width: 100%;
+    height: 120vh;
+    background-color:#200E3A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign_box{
+    width: 80%;
+    height: 80%;
+    background-color: whitesmoke;
+    box-shadow: 26px 28px 33px 0px rgba(82, 211, 216,0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.text_sign{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap ;
+    background-color: #38419D;
+}
+.img_sign{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:#00BF63;
+    
+    border: none;
+}
+.img_sign p{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    text-shadow: 1px 1px 1px snow;
+    font-size: 3vw;
+}
+.welcome{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+
+.content {
+	position: relative;
+}
+
+.content h2 {
+	color: #fff;
+	font-size: 5vw;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+
+.content h2:nth-child(1) {
+	color: transparent;
+	-webkit-text-stroke: 1px whitesmoke;
+}
+
+.content h2:nth-child(2) {
+    
+    color:#00BF63;
+	animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+			0% 45%,
+			16% 44%,
+			33% 50%,
+			54% 60%,
+			70% 61%,
+			84% 59%,
+			100% 52%,
+			100% 100%,
+			0% 100%
+		);
+	}
+
+	50% {
+		clip-path: polygon(
+			0% 60%,
+			15% 65%,
+			34% 66%,
+			51% 62%,
+			67% 50%,
+			84% 45%,
+			100% 46%,
+			100% 100%,
+			0% 100%
+		);
+	}
+}
+
+.user_name_p{
+    width: 100%;
+    height: 5%;
+    text-align: left;
+}
+.user_name_p p{
+
+    color:#00BF63;
+    margin-left: 10%;
+    text-shadow: 1px 1px 1px whitesmoke;
+    font-size: 2vw;
+}
+.text_sign input{
+    width: 80%;
+    height: 7.5%;
+    color: #0c1b7b;
+    text-indent: 5%;
+
+}
+.text_sign button{
+    width: 60%;
+    border-radius: 20px;
+    height: 10%;
+    border: none;
+    background-color:#00BF63;
+    font-size: 2vw;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px mediumblue;
+}
+
+.img_sign img{
+    width:100%;
+    height:50%;
+    object-fit: contain;
+    border: none;
+}
+@media screen and (max-width:767px) {
+    .img_sign img{
+       width: 100%;
+       height: 80%;
+    }
+    .img_sign{
+        width: 100%;
+        height: 50%;
+    }
+    .text_sign{
+        width: 100%;
+        height: 50%;
+    }
+}
+@media screen and (min-width:967px) {
+   .img_sign img{
+    width: 100%;
+    height: 100%;
+    height: 80%;
+   }
+}

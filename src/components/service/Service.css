@@ -1,0 +1,85 @@
+.Service{
+    width: 100%;
+    height: 105vh;
+  background-color: #252A34;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;}
+.navbar-service{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items:end;
+    color: rgb(1, 111, 255);
+    font-size: 3vw;
+    text-shadow: 3px 1px 1px whitesmoke;
+    justify-content: center;
+}
+.banner-service{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.service_box{
+    width: 22.5%;
+    height: 100%;
+    background-color:rgba(8, 217, 214,0.1);
+    border: 1px solid gray;
+}
+.service_box img{
+    width: 50%;
+    height: 20%;
+    margin-left: 25%;
+    margin-top: 5%;
+    object-fit: contain;
+}
+.service_box p{
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+    margin-top: 5%;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    flex-wrap: wrap;
+    color: #EAEAEA;
+    text-shadow: 2px 2px 2px #FF2E63;
+    font-size: 1vw;
+}
+@media only screen and (max-width: 767px) {
+    .navbar-service{
+        font-size: 5vw;
+    }
+       .service_box{
+        width: 96%;
+        height: 24%;
+        margin-left: 2%;
+       } 
+.service_box p{
+    font-size: 1.5vw;
+}
+   }
+  
+   
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .service_box{
+        width: 23%;
+        height: 80%;
+
+    }
+  }
+
+  /* Tablet styles */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .service_box{
+        width: 48%;
+        height: 48%;
+        
+    }
+  }

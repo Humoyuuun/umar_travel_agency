@@ -1,0 +1,103 @@
+.About{
+    width: 100%;
+    height: 120vh;
+     background-color: #00BF63;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+.navbar_about{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.navbar_about{
+    color: red;
+    font-size: 3vw;
+    text-shadow: 1px 1px 1px snow;
+}
+.banner_about{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-picture{
+    width: 50%;
+    height: 95%;
+}
+.main-picture .img{
+    width: 90%;
+    height: 90%;
+ 
+ 
+}
+.main-picture .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.main-text{
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    display: flex;
+  
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-text h1{
+    color: whitesmoke;
+    font-size: 2.75vw;
+   
+}
+.main-text p{
+    width: 70%;
+    height: 60%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+    color: orangered;
+    text-shadow: 1px 1px 1px snow;
+}
+@media only screen and (max-width: 767px) {
+   .main-text h1{
+        font-size: 4vw;
+        margin-top: 40%;
+   }
+        .main-text p{
+            font-size: 3vw;
+        }
+        .navbar_about{
+            font-size: 7.5vw;
+        }
+        .main-picture{
+            width: 100%;
+            height: 50%;
+        }
+        .main-text{
+            width: 100%;
+            height: 50%;
+        }
+        .navbar_about{
+            width: 100%;
+            height:10%;
+        }
+        .banner_about{
+            width: 100%;
+            height: 90%;
+        }
+   }
+   @media only screen and (min-width: 967px) {
+   
+    .main-text p{
+        font-size: 2vw;
+    }
+}

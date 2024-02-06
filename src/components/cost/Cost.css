@@ -1,0 +1,131 @@
+.Cost{
+    width: 100%;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,142,47,1) 15%, rgba(0,255,84,1) 92%);
+    display: flex;
+    align-items:end;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cost_navbar{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items:end;
+    justify-content: center;
+    
+    font-size:2.75vw;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px grey;
+
+    flex-wrap: wrap;
+}
+.cost_navbar h1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.cost_navbar .money{
+    width: 70%;
+    height: 50%;
+    display: flex;
+   border-radius: 50px;
+align-items: center;
+justify-content:space-evenly;
+font-size: 2.5vw;
+}
+.cost_navbar .money h3{
+    width: 33%;
+    height: 100%;
+    border:1px solid whitesmoke;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cost_navbar .money h3:hover{
+   background-color: rgb(255, 0, 0,0.75);
+   transition: 1s;
+}
+
+.banner_cost{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap
+}
+.box_cost{
+    width:31%;
+    height: 31%;
+    display: flex;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(255,255,255,0.45);
+    
+}
+.banner_cost img{
+    width: 30%;
+    height: 80%;
+    object-fit: contain;
+   
+}
+.banner_cost h1{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+   color: black;
+   text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+   .box_cost{
+    width: 23%;
+    height: 46%;
+    
+    font-size: 30px;
+   }
+  }
+
+  /* Laptop styles */
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .box_cost{
+        width: 31%;
+        height: 31%;
+        
+        font-size: 25px;
+       }
+  }
+
+  /* Tablet styles */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .box_cost{
+        width: 46%;
+        height: 23%;
+        font-size: 20px;
+       }
+  }
+
+  /* Smartphone styles */
+  @media only screen and (max-width: 767px) {
+   .banner_cost{
+    height: 75%;
+   }
+    .box_cost{
+        width: 96%;
+        height: 12%;
+        margin-top: 0.5%;
+        
+       }
+       
+  }

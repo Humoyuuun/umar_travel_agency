@@ -1,0 +1,96 @@
+.Banner{
+    width: 100%;
+    height: 100vh;
+    background: url(https://image.khaleejtimes.com/?uuid=2bb20c8f-d5ff-5a67-8a22-51e9800e6800&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.75&x=0&y=0&width=1200&height=675) center center no-repeat fixed;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+
+
+
+@media only screen and (min-width: 1200px) {
+    .Banner{
+        background: url(https://vistapointe.net/images/mecca-1.jpg) center center no-repeat fixed;
+    }
+    .text_banner h1{
+        font-size: 40px;
+    }
+    .button1{
+        width: 30%;
+        font-size: 30px;
+    }
+
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .Banner{
+        background: url(https://wallpapers.com/images/hd/scenic-kaaba-in-makkah-hd-4k-d0tdkmhe46q2i6pl.jpg) center center no-repeat fixed;
+    }
+    .button1{
+        width: 25%;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .Banner{
+        background: url(https://wallpaperaccess.com/full/6635978.jpg) center center no-repeat fixed;
+    }
+    .text_banner h1{
+        font-size: 25px;
+    }
+    .button1{
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .Banner{
+        background: url(https://e1.pxfuel.com/desktop-wallpaper/1/908/desktop-wallpaper-makkah-high-resolution-makkah-iphone.jpg) center center no-repeat fixed;
+    }
+    .text_banner h1{
+        font-size: 20px;
+    }
+    .button1{
+        
+        font-size: 12px;
+    }
+  }
+
+
+  .text_banner{
+    width: 100%;
+    height: 25%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+    font-size: 30px;
+    margin-top: 10%;
+  }
+  .button{
+    width: 100%;
+    height: 10%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .button1{
+    width: 300px;
+    height: 100%;
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid lawngreen;
+    color: whitesmoke;
+    border-radius: 50px;
+    font-size: 25px;
+  }
+  .button1:hover{
+   
+    background-color: rgba(255,255,255,0.5);
+    border: 1px solid lawngreen;
+    color: whitesmoke;
+  }
